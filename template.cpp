@@ -8,7 +8,8 @@ using ll = long long;
 #define rall(x) (x).rbegin(), (x).rend()
 #define rep(i,a,b) for (int i = (a); i <= (b); i++)
 #define forn(i,n) for (int i = 0; i < (n); i++)
-
+#define rforn(i,n) for (int i = (n)-1; i > -1; i--)
+#define rdvec(a,n) do { forn(i,n) cin >> a[i]; } while(0)
 #define print(x) (cout<<#x<<"="<<(x)<<"\n")
 
 static inline void fast_io() {
@@ -17,13 +18,14 @@ static inline void fast_io() {
 }
 
 static void solve_one() {
+  int n; cin >> n;
 
 }
 
 int main() {
     fast_io();
 
-    // solve_one();
+    solve_one();
     
 
     // int T; cin >> T;
